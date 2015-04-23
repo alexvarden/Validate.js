@@ -7,7 +7,10 @@ A JQuery library for validating text form inputs.
 - Editable functions for PASS and FAIL to tailor to your project.
 
 
-                              RULES
+<table>
+<th>
+RULES
+</th>
       ------------------------------------------------------
       Options			    pass 	  discription
 			------------------------------------------------------
@@ -36,4 +39,4 @@ A JQuery library for validating text form inputs.
 			notafter	      ID:date	checks date is before date element
 			regex 		      regex	  takes regex sting and compares
 
-
+<table>
