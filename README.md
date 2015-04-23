@@ -13,7 +13,7 @@ A JQuery library for validating text form inputs.
 	<thead>
 		<tr>
 			<th>Options</th>
-			<th>pass</th>
+			<th>Input</th>
 			<th>discription</th>
 		</tr>
 	</thead>
