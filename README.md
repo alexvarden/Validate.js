@@ -6,10 +6,10 @@ A JQuery library for validating text form inputs.
 - human readable ids are taken from <label> for feedback 
 - Editable functions for PASS and FAIL to tailor to your project.
 
+	<H3>RULES</H3>
 
-<table> 
- <tr>
-	<caption>RULES</caption>
+
+<table>
 	<thead>
 		<tr>
 			<th>Options</th>
@@ -18,81 +18,37 @@ A JQuery library for validating text form inputs.
 		</tr>
 	</thead>
 	<tbody>
-	
- 			<tr>
-			required</td><td>bool	check exists	 
-			</tr>
-			<tr>
-			contains</td><td>string  contains substring at least somewhere in it (regardless of case). 	 
-			</tr>
-			<tr>
-			endsIn</td><td>string  contains substring at the end (regardless of case). 	 
-			</tr>
-			<tr>
-			max</td><td>int		make sure string length is more than x	 
-			</tr>
-			<tr>
-			min</td><td>int		make sure string length is less than x 
-			</tr>
-			<tr>
-			alpha</td><td>bool	make sure string is just letters  
-			</tr>
-			<tr>
-			numeric</td><td>bool	make sure string is just numbers  
-			</tr>
-			<tr>
-			numeric_s</td><td>bool	make sure string is just numbers  
-			</tr>
-			<tr>
-			max_val</td><td>int 	maximum numeric value 
-			</tr>
-			<tr>
-			min_val</td><td>int 	maximum numeric value 
-			</tr>
-			<tr>
-			alphanumeric_S</td><td>bool	make sure string is just letters/numbers & spaces 
-			</tr>
-			<tr>
-			alphanumeric</td><td>bool	make sure string is just letters/numbers  
-			</tr>
-			<tr>
-			letters</td><td>int		makes sure there is x amount of letters 
-			</tr>
-			<tr>
-			upperletters</td><td>int		makes sure there is x amount of capital letters 
-			</tr>
-			<tr>
-			lowerletters	int		makes sure there is x amount of lower case letters 
-			</tr>
-			<tr>
-			numbers			int	    makes sure there is x amount of numbers 
-			</tr>
-			<tr>
-			nospace			bool	disallows spaces  
-			</tr>
-			<tr>
-			email			bool	check if valid email 
-			</tr>
-			<tr>
-			equalto			ID 		checks to inputs are the same 
-			</tr>
-			<tr>
-			Notequal		ID 		checks to inputs are Not the same 
-			</tr>
-			<tr>
-			pair			ID		requires at least 1 of inputs  
-			</tr>
-			<tr>
-			notbefore	  ID:date	checks date is not before date element		 
-			</tr>
-			<tr>
-			notafter	  ID:date	checks date is before date element 
-			</tr>
-			<tr>
-			regex 		   regex	takes regex sting and compares
+		<tr>
+			
+				 <tr><td>required</td><td>	bool		</td><td>check exists	
+			</td></tr><tr><td>contains</td><td>	string		</td><td>contains substring at least somewhere in it (regardless of case). 	
+			</td></tr><tr><td>endsIn</td><td>	string		</td><td>contains substring at the end (regardless of case). 	
+			</td></tr><tr><td>max</td><td>	int				</td><td>make sure string length is more than x	
+			</td></tr><tr><td>min</td><td>	int				</td><td>make sure string length is less than x
+			</td></tr><tr><td>alpha</td><td>	bool			</td><td>make sure string is just letters 
+			</td></tr><tr><td>numeric</td><td>	bool		</td><td>make sure string is just numbers 
+			</td></tr><tr><td>numeric_s</td><td>	bool		</td><td>make sure string is just numbers 
+			</td></tr><tr><td>max_val</td><td>	int			</td><td>maximum numeric value
+			</td></tr><tr><td>min_val</td><td>	int			</td><td>maximum numeric value
+			</td></tr><tr><td>alphanumeric_S</td><td>bool	</td><td>make sure string is just letters/numbers & spaces
+			</td></tr><tr><td>alphanumeric</td><td>	bool	</td><td>make sure string is just letters/numbers 
+			</td></tr><tr><td>letters</td><td>	int			</td><td>makes sure there is x amount of letters
+			</td></tr><tr><td>upperletters</td><td>	int		</td><td>makes sure there is x amount of capital letters
+			</td></tr><tr><td>lowerletters</td><td>	int		</td><td>makes sure there is x amount of lower case letters
+			</td></tr><tr><td>numbers</td><td>	int	     	</td><td>makes sure there is x amount of numbers
+			</td></tr><tr><td>nospace</td><td>	bool	 	</td><td>disallows spaces 
+			</td></tr><tr><td>email</td><td>	bool	 		</td><td>check if valid email
+			</td></tr><tr><td>equalto</td><td>	ID 	 		</td><td>checks to inputs are the same
+			</td></tr><tr><td>Notequal</td><td>	ID 	 		</td><td>checks to inputs are Not the same
+			</td></tr><tr><td>pair</td><td>	ID				</td><td>requires at least 1 of inputs 
+			</td></tr><tr><td>notbefore</td><td> 	ID:date	</td><td>checks date is not before date element		
+			</td></tr><tr><td>notafter</td><td>  	ID:date	</td><td>checks date is before date element
+			</td></tr><tr><td>regex</td><td>	regex	 		</td><td>takes regex sting and compares		
+			</td></tr><tr><td>			</tr>
 	</tbody>
 </table>
 
 
 
- 
+
+
