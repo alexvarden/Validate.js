@@ -8,8 +8,7 @@ A JQuery library for validating text form inputs.
 
 
 <table> 
-</table>
-<tr>
+ <tr>
 	<caption>RULES</caption>
 	<thead>
 		<tr>
