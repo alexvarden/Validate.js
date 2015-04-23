@@ -9,7 +9,7 @@ A JQuery library for validating text form inputs.
 	<H3>RULES</H3>
 
 
-<table>
+<table width="100%">
 	<thead>
 		<tr>
 			<th>Options</th>
