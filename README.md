@@ -44,7 +44,6 @@ A JQuery library for validating text form inputs.
 			</td></tr><tr><td>notbefore</td><td> 	ID:date	</td><td>checks date is not before date element		
 			</td></tr><tr><td>notafter</td><td>  	ID:date	</td><td>checks date is before date element
 			</td></tr><tr><td>regex</td><td>	regex	 		</td><td>takes regex sting and compares		
-			</td></tr><tr><td>			</tr>
 	</tbody>
 </table>
 
